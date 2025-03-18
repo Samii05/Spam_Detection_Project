@@ -5,7 +5,7 @@ import tensorflow as tf
 import gensim
 import spacy
 
-# Charger le modèle    
+# Charger le modèle                                 
 model = tf.keras.models.load_model("mon_modele_spam.h5")
 
 # Charger le dictionnaire
